@@ -1,4 +1,4 @@
-### Menu React :doughnut:
+### Menu React for Veganiemonos company :doughnut:
 
 ## Description:
 
