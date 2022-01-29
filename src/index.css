@@ -35,8 +35,11 @@ Variables
 
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark3: hsl(125, 66%, 12%);
+  --clr-green-dark2: hsl(124, 64%, 25%);
   --clr-green-dark: hsl(125, 67%, 44%);
-  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-green-light: hsl(127, 17%, 31%);
+  --clr-green-light2: hsl(125, 54%, 61%);
   --clr-black: #222;
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
@@ -66,6 +69,16 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+}
+
+.title-logo {
+  text-align: center;
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+}
+.logo {
+  font-family: 'Spartan';
+  font-size: 15px;
 }
 ul {
   list-style-type: none;
@@ -150,9 +163,9 @@ Menu
   margin-bottom: 2rem;
 }
 .underline {
-  width: 5rem;
+  width: 12rem;
   height: 0.25rem;
-  background: var(--clr-gold);
+  background: var(--clr-green-light);
   margin-left: auto;
   margin-right: auto;
 }
@@ -169,13 +182,13 @@ Menu
   margin: 0 0.5rem;
   letter-spacing: 1px;
   padding: 0.375rem 0.75rem;
-  color: var(--clr-gold);
+  color: var(--clr-green-dark2);
   cursor: pointer;
   transition: var(--transition);
   border-radius: var(--radius);
 }
 .filter-btn:hover {
-  background: var(--clr-gold);
+  background: var(--clr-green-dark2);
   color: var(--clr-white);
 }
 .section-center {
@@ -195,7 +208,7 @@ Menu
   object-fit: cover;
   height: 200px;
   width: 100%;
-  border: 0.25rem solid var(--clr-gold);
+  border: 0.25rem solid var(--clr-green-light2);
   border-radius: var(--radius);
   display: block;
 }
@@ -208,7 +221,7 @@ Menu
   margin-bottom: 0.5rem;
 }
 .price {
-  color: var(--clr-gold);
+  color: var(--clr-green-dark2);
 }
 .item-text {
   margin-bottom: 0;
